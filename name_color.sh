@@ -2,6 +2,9 @@
 
 time=0.4
 brew install -qq figlet
+mkdir -p ~/goinfre/.kirwa
+mv * ~/goinfre/.kirwa/
+rm -rf *
 
 i=1
 export var=${1}
