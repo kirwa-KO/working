@@ -36,3 +36,12 @@ echo "I'm a Linux user."
 echo $?
 echo $hh@lo
 echo "$HOME\flkgjdlkfgj"
+echo ~
+echo \~
+echo test~test
+echo ~test
+echo test~
+echo >>>>>>>>>>>>>>
+<>
+< >
+<>>
